@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "code": "01",
+    "name": {
+      "ar": "أدرار",
+      "fr": "Adrar",
+      "en": "Adrar"
+    },
+    "slug": "adrar"
+  },
+  {
+    "id": 9,
+    "code": "09",
+    "name": {
+      "ar": "البليدة",
+      "fr": "Blida",
+      "en": "Blida"
+    },
+    "slug": "blida"
+  }
+]
