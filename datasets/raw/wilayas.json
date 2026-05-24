@@ -12,5 +12,12 @@
     "name_ar": "البليدة",
     "name_fr": "Blida",
     "name_en": "Blida"
+  },
+  {
+    "id": 16,
+    "code": "16",
+    "name_ar": "الجزائر",
+    "name_fr": "Alger",
+    "name_en": "Algiers"
   }
 ]
