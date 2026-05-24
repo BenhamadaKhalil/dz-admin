@@ -1,0 +1,173 @@
+﻿wilaya_code,wilaya_name_ar,wilaya_name_fr,wilaya_name_en,daira_name_ar,daira_name_fr,daira_name_en,commune_name_ar,commune_name_fr,commune_name_en,postal_code,lat,lon
+01,أدرار,Adrar,Adrar,أدرار,Adrar,Adrar,أدرار,Adrar,Adrar,01000,27.8742,-0.2939
+01,أدرار,Adrar,Adrar,أدرار,Adrar,Adrar,أولف,Aoulef,Aoulef,01001,26.9728,1.0803
+01,أدرار,Adrar,Adrar,أدرار,Adrar,Adrar,تيمي,Timmi,Timmi,01002,27.8517,-0.2408
+01,أدرار,Adrar,Adrar,رقان,Reggane,Reggane,رقان,Reggane,Reggane,01010,26.7131,0.1664
+01,أدرار,Adrar,Adrar,رقان,Reggane,Reggane,زاوية كنتة,Zaouiet Kounta,Zaouiet Kounta,01011,27.2356,-0.1742
+01,أدرار,Adrar,Adrar,تيميمون,Timimoun,Timimoun,تيميمون,Timimoun,Timimoun,01020,29.2632,0.2341
+01,أدرار,Adrar,Adrar,تيميمون,Timimoun,Timimoun,شروين,Charouine,Charouine,01021,29.0194,-0.2717
+02,الشلف,Chlef,Chlef,الشلف,Chlef,Chlef,الشلف,Chlef,Chlef,02000,36.1653,1.3317
+02,الشلف,Chlef,Chlef,الشلف,Chlef,Chlef,حرازة,Haraza,Haraza,02001,36.18,1.31
+02,الشلف,Chlef,Chlef,الشلف,Chlef,Chlef,بني حواء,Beni Haoua,Beni Haoua,02002,36.4172,1.5136
+02,الشلف,Chlef,Chlef,تنس,Ténès,Tenes,تنس,Ténès,Tenes,02010,36.5153,1.3056
+02,الشلف,Chlef,Chlef,تنس,Ténès,Tenes,سيدي عكاشة,Sidi Akkacha,Sidi Akkacha,02011,36.4614,1.45
+02,الشلف,Chlef,Chlef,الأبيض سيدي الشيخ,Abou El Hassan,Abou El Hassan,أبو الحسن,Abou El Hassan,Abou El Hassan,02020,36.3636,1.5511
+03,الأغواط,Laghouat,Laghouat,الأغواط,Laghouat,Laghouat,الأغواط,Laghouat,Laghouat,03000,33.8,2.8828
+03,الأغواط,Laghouat,Laghouat,الأغواط,Laghouat,Laghouat,قلتة سيدي سعد,Gueltat Sidi Saad,Gueltat Sidi Saad,03001,33.7667,2.9167
+03,الأغواط,Laghouat,Laghouat,آفلو,Aflou,Aflou,آفلو,Aflou,Aflou,03010,34.1117,2.1003
+03,الأغواط,Laghouat,Laghouat,آفلو,Aflou,Aflou,سيدي بوزيد,Sidi Bouzid,Sidi Bouzid,03011,34.1967,2.1514
+04,أم البواقي,Oum El Bouaghi,Oum El Bouaghi,أم البواقي,Oum El Bouaghi,Oum El Bouaghi,أم البواقي,Oum El Bouaghi,Oum El Bouaghi,04000,35.8736,7.1128
+04,أم البواقي,Oum El Bouaghi,Oum El Bouaghi,أم البواقي,Oum El Bouaghi,Oum El Bouaghi,عين البيضاء,Ain Beida,Ain Beida,04001,35.7956,7.3942
+04,أم البواقي,Oum El Bouaghi,Oum El Bouaghi,عين مليلة,Ain M'lila,Ain Mlila,عين مليلة,Ain M'lila,Ain Mlila,04010,36.0272,6.5675
+04,أم البواقي,Oum El Bouaghi,Oum El Bouaghi,عين مليلة,Ain M'lila,Ain Mlila,فكيرينة,Fkirina,Fkirina,04011,35.9156,6.8897
+05,باتنة,Batna,Batna,باتنة,Batna,Batna,باتنة,Batna,Batna,05000,35.5558,6.1742
+05,باتنة,Batna,Batna,باتنة,Batna,Batna,فسديس,Fesdis,Fesdis,05001,35.5292,6.2289
+05,باتنة,Batna,Batna,عين توتة,Ain Touta,Ain Touta,عين توتة,Ain Touta,Ain Touta,05010,35.3906,5.8917
+05,باتنة,Batna,Batna,آريس,Arris,Arris,آريس,Arris,Arris,05020,35.1006,6.3861
+05,باتنة,Batna,Batna,آريس,Arris,Arris,تكوت,Tighanimine,Tighanimine,05021,35.0539,6.465
+06,بجاية,Béjaïa,Bejaia,بجاية,Béjaïa,Bejaia,بجاية,Béjaïa,Bejaia,06000,36.7539,5.0844
+06,بجاية,Béjaïa,Bejaia,بجاية,Béjaïa,Bejaia,أوقاس,Oued Ghir,Oued Ghir,06001,36.7108,5.0517
+06,بجاية,Béjaïa,Bejaia,أقبو,Akbou,Akbou,أقبو,Akbou,Akbou,06010,36.4672,4.5272
+06,بجاية,Béjaïa,Bejaia,أقبو,Akbou,Akbou,سيدي عيش,Sidi Aich,Sidi Aich,06011,36.6269,4.6992
+06,بجاية,Béjaïa,Bejaia,خراطة,Kherrata,Kherrata,خراطة,Kherrata,Kherrata,06020,36.5,5.2667
+07,بسكرة,Biskra,Biskra,بسكرة,Biskra,Biskra,بسكرة,Biskra,Biskra,07000,34.85,5.7333
+07,بسكرة,Biskra,Biskra,بسكرة,Biskra,Biskra,أولاد جلال,Ouled Djellal,Ouled Djellal,07001,34.4178,5.0692
+07,بسكرة,Biskra,Biskra,طولقة,Tolga,Tolga,طولقة,Tolga,Tolga,07010,34.7228,5.3783
+07,بسكرة,Biskra,Biskra,سيدي عقبة,Sidi Okba,Sidi Okba,سيدي عقبة,Sidi Okba,Sidi Okba,07020,34.7456,5.9039
+08,بشار,Béchar,Bechar,بشار,Béchar,Bechar,بشار,Béchar,Bechar,08000,31.6167,-2.2167
+08,بشار,Béchar,Bechar,بشار,Béchar,Bechar,بوكايس,Boukais,Boukais,08001,31.65,-2.1833
+08,بشار,Béchar,Bechar,عباديا,Abadla,Abadla,عباديا,Abadla,Abadla,08010,31.0178,-2.7322
+08,بشار,Béchar,Bechar,بني عباس,Beni Abbès,Beni Abbes,بني عباس,Beni Abbès,Beni Abbes,08020,30.1281,-2.1619
+09,البليدة,Blida,Blida,البليدة,Blida,Blida,البليدة,Blida,Blida,09000,36.47,2.83
+09,البليدة,Blida,Blida,البليدة,Blida,Blida,شفة,Chiffa,Chiffa,09001,36.3933,2.6328
+09,البليدة,Blida,Blida,بوفاريك,Boufarik,Boufarik,بوفاريك,Boufarik,Boufarik,09010,36.5747,2.9094
+09,البليدة,Blida,Blida,بوفاريك,Boufarik,Boufarik,الأربعاء,Larbaa,Larbaa,09011,36.5594,3.0469
+09,البليدة,Blida,Blida,بوعينان,Bouinan,Bouinan,بوعينان,Bouinan,Bouinan,09020,36.5056,2.9019
+09,البليدة,Blida,Blida,بوعينان,Bouinan,Bouinan,مفتاح,Meftah,Meftah,09021,36.6258,3.125
+09,البليدة,Blida,Blida,الأفرون,Oued El Alleug,Oued El Alleug,واد العلايق,Oued El Alleug,Oued El Alleug,09030,36.5361,2.7347
+10,البويرة,Bouira,Bouira,البويرة,Bouira,Bouira,البويرة,Bouira,Bouira,10000,36.3739,3.9003
+10,البويرة,Bouira,Bouira,البويرة,Bouira,Bouira,الحاج محمد,El Adjiba,El Adjiba,10001,36.4,3.85
+10,البويرة,Bouira,Bouira,سور الغزلان,Sour El Ghozlane,Sour El Ghozlane,سور الغزلان,Sour El Ghozlane,Sour El Ghozlane,10010,36.1503,3.6922
+11,تمنراست,Tamanrasset,Tamanrasset,تمنراست,Tamanrasset,Tamanrasset,تمنراست,Tamanrasset,Tamanrasset,11000,22.7853,5.5228
+11,تمنراست,Tamanrasset,Tamanrasset,إن صالح,In Salah,In Salah,إن صالح,In Salah,In Salah,11010,27.1972,2.4644
+11,تمنراست,Tamanrasset,Tamanrasset,إن قزام,In Guezzam,In Guezzam,إن قزام,In Guezzam,In Guezzam,11020,19.5683,5.7725
+12,تبسة,Tébessa,Tebessa,تبسة,Tébessa,Tebessa,تبسة,Tébessa,Tebessa,12000,35.4044,8.1242
+12,تبسة,Tébessa,Tebessa,تبسة,Tébessa,Tebessa,الحمامات,Hammamet,Hammamet,12001,35.4,8.0833
+12,تبسة,Tébessa,Tebessa,بئر العاتر,Bir El Ater,Bir El Ater,بئر العاتر,Bir El Ater,Bir El Ater,12010,34.7467,7.9467
+13,تلمسان,Tlemcen,Tlemcen,تلمسان,Tlemcen,Tlemcen,تلمسان,Tlemcen,Tlemcen,13000,34.8828,-1.3167
+13,تلمسان,Tlemcen,Tlemcen,تلمسان,Tlemcen,Tlemcen,منصورة,Mansourah,Mansourah,13001,34.8833,-1.2833
+13,تلمسان,Tlemcen,Tlemcen,المغنية,Maghnia,Maghnia,المغنية,Maghnia,Maghnia,13010,34.8744,-1.7258
+13,تلمسان,Tlemcen,Tlemcen,المغنية,Maghnia,Maghnia,بوكانون,Bou Kanoune,Bou Kanoune,13011,34.85,-1.6833
+13,تلمسان,Tlemcen,Tlemcen,غليزان,Ghazaouet,Ghazaouet,غزاوت,Ghazaouet,Ghazaouet,13020,35.0981,-1.8661
+14,تيارت,Tiaret,Tiaret,تيارت,Tiaret,Tiaret,تيارت,Tiaret,Tiaret,14000,35.3711,1.3167
+14,تيارت,Tiaret,Tiaret,تيارت,Tiaret,Tiaret,زمالة الأمير عبد القادر,Zmalet El Emir Abdelkader,Zmalet El Emir Abdelkader,14001,35.35,1.3
+14,تيارت,Tiaret,Tiaret,فرندة,Frenda,Frenda,فرندة,Frenda,Frenda,14010,35.0736,1.0467
+14,تيارت,Tiaret,Tiaret,سوق أهراس,Sougueur,Sougueur,سوقر,Sougueur,Sougueur,14020,35.1822,1.5067
+15,تيزي وزو,Tizi Ouzou,Tizi Ouzou,تيزي وزو,Tizi Ouzou,Tizi Ouzou,تيزي وزو,Tizi Ouzou,Tizi Ouzou,15000,36.7169,4.0497
+15,تيزي وزو,Tizi Ouzou,Tizi Ouzou,تيزي وزو,Tizi Ouzou,Tizi Ouzou,أويسي,Ouaguenoun,Ouaguenoun,15001,36.75,4.0833
+15,تيزي وزو,Tizi Ouzou,Tizi Ouzou,أزفون,Azeffoun,Azeffoun,أزفون,Azeffoun,Azeffoun,15010,36.8997,4.4219
+15,تيزي وزو,Tizi Ouzou,Tizi Ouzou,درعة الميزان,Draâ El Mizan,Draa El Mizan,درعة الميزان,Draâ El Mizan,Draa El Mizan,15020,36.5444,3.8328
+16,الجزائر,Alger,Algiers,سيدي امحمد,Sidi M'Hamed,Sidi M'Hamed,الجزائر الوسطى,Alger Centre,Algiers Centre,16000,36.7372,3.0887
+16,الجزائر,Alger,Algiers,سيدي امحمد,Sidi M'Hamed,Sidi M'Hamed,سيدي امحمد,Sidi M'Hamed,Sidi M'Hamed,16001,36.75,3.0667
+16,الجزائر,Alger,Algiers,حسين داي,Hussein Dey,Hussein Dey,حسين داي,Hussein Dey,Hussein Dey,16010,36.7333,3.1167
+16,الجزائر,Alger,Algiers,حسين داي,Hussein Dey,Hussein Dey,القبة,El Harrach,El Harrach,16011,36.7167,3.15
+16,الجزائر,Alger,Algiers,بوزريعة,Bouzaréah,Bouzareah,بوزريعة,Bouzaréah,Bouzareah,16020,36.7833,3.0167
+16,الجزائر,Alger,Algiers,بوزريعة,Bouzaréah,Bouzareah,الأبيار,El Biar,El Biar,16021,36.7667,3.0333
+16,الجزائر,Alger,Algiers,بابا حسن,Baba Hassan,Baba Hassan,بابا حسن,Baba Hassan,Baba Hassan,16030,36.6833,2.9833
+16,الجزائر,Alger,Algiers,بابا حسن,Baba Hassan,Baba Hassan,الدويرة,Douera,Douera,16031,36.6667,2.95
+16,الجزائر,Alger,Algiers,بئر مراد رايس,Bir Mourad Raïs,Bir Mourad Rais,بئر مراد رايس,Bir Mourad Raïs,Bir Mourad Rais,16040,36.7167,3.05
+16,الجزائر,Alger,Algiers,بئر مراد رايس,Bir Mourad Raïs,Bir Mourad Rais,بن عكنون,Ben Aknoun,Ben Aknoun,16041,36.75,3.0
+17,الجلفة,Djelfa,Djelfa,الجلفة,Djelfa,Djelfa,الجلفة,Djelfa,Djelfa,17000,34.6711,3.2631
+17,الجلفة,Djelfa,Djelfa,عين وسارة,Ain Oussera,Ain Oussera,عين وسارة,Ain Oussera,Ain Oussera,17010,35.4522,2.9069
+17,الجلفة,Djelfa,Djelfa,مسعد,M'Sila,Messaad,مسعد,Messaad,Messaad,17020,34.1514,3.4964
+18,جيجل,Jijel,Jijel,جيجل,Jijel,Jijel,جيجل,Jijel,Jijel,18000,36.82,5.7667
+18,جيجل,Jijel,Jijel,جيجل,Jijel,Jijel,تاهير,Taher,Taher,18001,36.8,5.8833
+18,جيجل,Jijel,Jijel,الميلية,El Milia,El Milia,الميلية,El Milia,El Milia,18010,36.75,6.2667
+19,سطيف,Sétif,Setif,سطيف,Sétif,Setif,سطيف,Sétif,Setif,19000,36.1898,5.4108
+19,سطيف,Sétif,Setif,سطيف,Sétif,Setif,عين أرنات,Ain Arnat,Ain Arnat,19001,36.1833,5.3167
+19,سطيف,Sétif,Setif,العلمة,El Eulma,El Eulma,العلمة,El Eulma,El Eulma,19010,36.1531,5.6892
+19,سطيف,Sétif,Setif,عين ولمان,Ain Oulmane,Ain Oulmane,عين ولمان,Ain Oulmane,Ain Oulmane,19020,35.8961,5.2697
+20,سعيدة,Saïda,Saida,سعيدة,Saïda,Saida,سعيدة,Saïda,Saida,20000,34.8311,0.1511
+20,سعيدة,Saïda,Saida,عين الحجر,Ain El Hadjar,Ain El Hadjar,عين الحجر,Ain El Hadjar,Ain El Hadjar,20010,34.7208,0.1344
+21,سكيكدة,Skikda,Skikda,سكيكدة,Skikda,Skikda,سكيكدة,Skikda,Skikda,21000,36.8761,6.9064
+21,سكيكدة,Skikda,Skikda,سكيكدة,Skikda,Skikda,عزابة,Azzaba,Azzaba,21001,36.7361,7.1044
+21,سكيكدة,Skikda,Skikda,القل,El Harrouch,El Harrouch,الحروش,El Harrouch,El Harrouch,21010,36.6611,6.9003
+22,سيدي بلعباس,Sidi Bel Abbès,Sidi Bel Abbes,سيدي بلعباس,Sidi Bel Abbès,Sidi Bel Abbes,سيدي بلعباس,Sidi Bel Abbès,Sidi Bel Abbes,22000,35.1897,-0.6306
+22,سيدي بلعباس,Sidi Bel Abbès,Sidi Bel Abbes,سيدي بلعباس,Sidi Bel Abbès,Sidi Bel Abbes,تفسور,Tafissour,Tafissour,22001,35.2,-0.6167
+22,سيدي بلعباس,Sidi Bel Abbès,Sidi Bel Abbes,تسالة الموشة,Tessala,Tessala,تسالة,Tessala,Tessala,22010,35.2972,-0.6467
+23,عنابة,Annaba,Annaba,عنابة,Annaba,Annaba,عنابة,Annaba,Annaba,23000,36.9,7.7667
+23,عنابة,Annaba,Annaba,عنابة,Annaba,Annaba,الحجار,El Hadjar,El Hadjar,23001,36.8,7.7333
+23,عنابة,Annaba,Annaba,البشير الإبراهيمي,Berrahal,Berrahal,برحال,Berrahal,Berrahal,23010,36.85,7.5833
+24,قالمة,Guelma,Guelma,قالمة,Guelma,Guelma,قالمة,Guelma,Guelma,24000,36.4617,7.4328
+24,قالمة,Guelma,Guelma,قالمة,Guelma,Guelma,بلخير,Belkheir,Belkheir,24001,36.45,7.4167
+24,قالمة,Guelma,Guelma,بوشقوف,Bouchegouf,Bouchegouf,بوشقوف,Bouchegouf,Bouchegouf,24010,36.4583,7.7144
+25,قسنطينة,Constantine,Constantine,قسنطينة,Constantine,Constantine,قسنطينة,Constantine,Constantine,25000,36.365,6.6147
+25,قسنطينة,Constantine,Constantine,قسنطينة,Constantine,Constantine,الخروب,El Khroub,El Khroub,25001,36.2667,6.6833
+25,قسنطينة,Constantine,Constantine,عين سمارة,Ain Smara,Ain Smara,عين سمارة,Ain Smara,Ain Smara,25010,36.3,6.5833
+26,المدية,Médéa,Medea,المدية,Médéa,Medea,المدية,Médéa,Medea,26000,36.2636,2.7519
+26,المدية,Médéa,Medea,المدية,Médéa,Medea,درارية,Draria,Draria,26001,36.25,2.7333
+26,المدية,Médéa,Medea,بئر الشهداء,Ksar El Boukhari,Ksar El Boukhari,قصر البخاري,Ksar El Boukhari,Ksar El Boukhari,26010,35.8817,2.7481
+27,مستغانم,Mostaganem,Mostaganem,مستغانم,Mostaganem,Mostaganem,مستغانم,Mostaganem,Mostaganem,27000,35.9319,0.0892
+27,مستغانم,Mostaganem,Mostaganem,مستغانم,Mostaganem,Mostaganem,سور,Sour,Sour,27001,35.95,0.1
+27,مستغانم,Mostaganem,Mostaganem,عين تدلس,Ain Tedeles,Ain Tedeles,عين تدلس,Ain Tedeles,Ain Tedeles,27010,36.1381,0.2797
+28,المسيلة,M'Sila,M'Sila,المسيلة,M'Sila,M'Sila,المسيلة,M'Sila,M'Sila,28000,35.7058,4.5417
+28,المسيلة,M'Sila,M'Sila,بوسعادة,Bou Saâda,Bou Saada,بوسعادة,Bou Saâda,Bou Saada,28010,35.2094,4.1786
+29,معسكر,Mascara,Mascara,معسكر,Mascara,Mascara,معسكر,Mascara,Mascara,29000,35.3958,0.1403
+29,معسكر,Mascara,Mascara,غريس,Ghriss,Ghriss,غريس,Ghriss,Ghriss,29010,35.275,0.1961
+30,ورقلة,Ouargla,Ouargla,ورقلة,Ouargla,Ouargla,ورقلة,Ouargla,Ouargla,30000,31.9539,5.3344
+30,ورقلة,Ouargla,Ouargla,حاسي مسعود,Hassi Messaoud,Hassi Messaoud,حاسي مسعود,Hassi Messaoud,Hassi Messaoud,30010,31.6917,6.0611
+30,ورقلة,Ouargla,Ouargla,تقرت,Touggourt,Touggourt,تقرت,Touggourt,Touggourt,30020,33.0997,6.0628
+31,وهران,Oran,Oran,وهران,Oran,Oran,وهران,Oran,Oran,31000,35.6969,-0.6331
+31,وهران,Oran,Oran,وهران,Oran,Oran,مرسى الكبير,Mers El Kébir,Mers El Kebir,31001,35.7264,-0.7072
+31,وهران,Oran,Oran,بطيوة,Boutlelis,Boutlelis,بطيوة,Boutlelis,Boutlelis,31010,35.5589,-0.8358
+31,وهران,Oran,Oran,عين الترك,Ain El Turk,Ain El Turk,عين الترك,Ain El Turk,Ain El Turk,31020,35.7386,-0.7667
+31,وهران,Oran,Oran,عين الترك,Ain El Turk,Ain El Turk,أرزيو,Arzew,Arzew,31021,35.8531,-0.3069
+32,البيض,El Bayadh,El Bayadh,البيض,El Bayadh,El Bayadh,البيض,El Bayadh,El Bayadh,32000,33.6831,1.0181
+32,البيض,El Bayadh,El Bayadh,بوسمغون,Brezina,Brezina,بريزينة,Brezina,Brezina,32010,33.0944,1.2681
+33,إليزي,Illizi,Illizi,إليزي,Illizi,Illizi,إليزي,Illizi,Illizi,33000,26.5,8.4833
+33,إليزي,Illizi,Illizi,دبداب,Djanet,Djanet,جانت,Djanet,Djanet,33010,24.5553,9.4839
+34,برج بوعريريج,Bordj Bou Arréridj,Bordj Bou Arreridj,برج بوعريريج,Bordj Bou Arréridj,Bordj Bou Arreridj,برج بوعريريج,Bordj Bou Arréridj,Bordj Bou Arreridj,34000,36.0731,4.7628
+34,برج بوعريريج,Bordj Bou Arréridj,Bordj Bou Arreridj,رأس الوادي,Ras El Oued,Ras El Oued,رأس الوادي,Ras El Oued,Ras El Oued,34010,35.9464,5.0311
+35,بومرداس,Boumerdès,Boumerdes,بومرداس,Boumerdès,Boumerdes,بومرداس,Boumerdès,Boumerdes,35000,36.7614,3.4775
+35,بومرداس,Boumerdès,Boumerdes,بومرداس,Boumerdès,Boumerdes,خميس الخشنة,Khemis El Khechna,Khemis El Khechna,35001,36.6472,3.3417
+35,بومرداس,Boumerdès,Boumerdes,دلس,Dellys,Dellys,دلس,Dellys,Dellys,35010,36.9167,3.9167
+36,الطارف,El Tarf,El Tarf,الطارف,El Tarf,El Tarf,الطارف,El Tarf,El Tarf,36000,36.7672,8.3133
+36,الطارف,El Tarf,El Tarf,الطارف,El Tarf,El Tarf,عين العسل,Ain El Assel,Ain El Assel,36001,36.7833,8.4167
+36,الطارف,El Tarf,El Tarf,البسباس,El Kala,El Kala,القالة,El Kala,El Kala,36010,36.8967,8.4461
+37,تيندوف,Tindouf,Tindouf,تيندوف,Tindouf,Tindouf,تيندوف,Tindouf,Tindouf,37000,27.6736,-8.1469
+38,تيسمسيلت,Tissemsilt,Tissemsilt,تيسمسيلت,Tissemsilt,Tissemsilt,تيسمسيلت,Tissemsilt,Tissemsilt,38000,35.6078,1.8128
+38,تيسمسيلت,Tissemsilt,Tissemsilt,ثنية الأحد,Theniet El Had,Theniet El Had,ثنية الأحد,Theniet El Had,Theniet El Had,38010,35.8028,1.9219
+39,الوادي,El Oued,El Oued,الوادي,El Oued,El Oued,الوادي,El Oued,El Oued,39000,33.3681,6.8633
+39,الوادي,El Oued,El Oued,بياضة,Bayadha,Bayadha,بياضة,Bayadha,Bayadha,39010,33.4333,6.9167
+40,خنشلة,Khenchela,Khenchela,خنشلة,Khenchela,Khenchela,خنشلة,Khenchela,Khenchela,40000,35.4333,7.1333
+40,خنشلة,Khenchela,Khenchela,كاف الأحمر,Kef El Ahmar,Kef El Ahmar,كاف الأحمر,Kef El Ahmar,Kef El Ahmar,40010,35.3167,7.1833
+41,سوق أهراس,Souk Ahras,Souk Ahras,سوق أهراس,Souk Ahras,Souk Ahras,سوق أهراس,Souk Ahras,Souk Ahras,41000,36.2869,7.9514
+41,سوق أهراس,Souk Ahras,Souk Ahras,مداوروش,M'Daourouch,M'Daourouch,مداوروش,M'Daourouch,M'Daourouch,41010,36.075,8.0011
+42,تيبازة,Tipaza,Tipaza,تيبازة,Tipaza,Tipaza,تيبازة,Tipaza,Tipaza,42000,36.5894,2.4469
+42,تيبازة,Tipaza,Tipaza,تيبازة,Tipaza,Tipaza,خميستي,Khemisti,Khemisti,42001,36.5833,2.5
+42,تيبازة,Tipaza,Tipaza,حجوط,Hadjout,Hadjout,حجوط,Hadjout,Hadjout,42010,36.5125,2.5411
+43,ميلة,Mila,Mila,ميلة,Mila,Mila,ميلة,Mila,Mila,43000,36.4506,6.2642
+43,ميلة,Mila,Mila,فرجيوة,Ferdjioua,Ferdjioua,فرجيوة,Ferdjioua,Ferdjioua,43010,36.3,6.1
+44,عين الدفلى,Aïn Defla,Ain Defla,عين الدفلى,Aïn Defla,Ain Defla,عين الدفلى,Aïn Defla,Ain Defla,44000,36.2642,1.9664
+44,عين الدفلى,Aïn Defla,Ain Defla,خميس مليانة,Khemis Miliana,Khemis Miliana,خميس مليانة,Khemis Miliana,Khemis Miliana,44010,36.2628,2.2197
+45,النعامة,Naâma,Naama,النعامة,Naâma,Naama,النعامة,Naâma,Naama,45000,33.2672,-0.3069
+45,النعامة,Naâma,Naama,عين الصفراء,Ain Sefra,Ain Sefra,عين الصفراء,Ain Sefra,Ain Sefra,45010,32.75,-0.5833
+46,عين تيموشنت,Aïn Témouchent,Ain Temouchent,عين تيموشنت,Aïn Témouchent,Ain Temouchent,عين تيموشنت,Aïn Témouchent,Ain Temouchent,46000,35.2978,-1.14
+46,عين تيموشنت,Aïn Témouchent,Ain Temouchent,بني صاف,Beni Saf,Beni Saf,بني صاف,Beni Saf,Beni Saf,46010,35.3,-1.3833
+47,غرداية,Ghardaïa,Ghardaia,غرداية,Ghardaïa,Ghardaia,غرداية,Ghardaïa,Ghardaia,47000,32.4919,3.6736
+47,غرداية,Ghardaïa,Ghardaia,غرداية,Ghardaïa,Ghardaia,بنورة,Berriane,Berriane,47001,32.8333,3.7667
+47,غرداية,Ghardaïa,Ghardaia,الداية,El Ménéa,El Menea,المنيعة,El Ménéa,El Menea,47010,30.5819,2.8864
+48,غليزان,Relizane,Relizane,غليزان,Relizane,Relizane,غليزان,Relizane,Relizane,48000,35.7378,0.5564
+48,غليزان,Relizane,Relizane,المحمدية,Mazouna,Mazouna,مازونة,Mazouna,Mazouna,48010,35.6344,0.3931
+49,تيميمون,Timimoun,Timimoun,تيميمون,Timimoun,Timimoun,تيميمون,Timimoun,Timimoun,49000,29.2632,0.2341
+49,تيميمون,Timimoun,Timimoun,أولاد سعيد,Ouled Said,Ouled Said,أولاد سعيد,Ouled Said,Ouled Said,49010,29.3,0.2
+50,برج باجي مختار,Bordj Badji Mokhtar,Bordj Badji Mokhtar,برج باجي مختار,Bordj Badji Mokhtar,Bordj Badji Mokhtar,برج باجي مختار,Bordj Badji Mokhtar,Bordj Badji Mokhtar,50000,21.3283,0.9467
+51,أولاد جلال,Ouled Djellal,Ouled Djellal,أولاد جلال,Ouled Djellal,Ouled Djellal,أولاد جلال,Ouled Djellal,Ouled Djellal,51000,34.4178,5.0692
+52,بني عباس,Beni Abbès,Beni Abbes,بني عباس,Beni Abbès,Beni Abbes,بني عباس,Beni Abbès,Beni Abbes,52000,30.1281,-2.1619
+53,إن صالح,In Salah,In Salah,إن صالح,In Salah,In Salah,إن صالح,In Salah,In Salah,53000,27.1972,2.4644
+54,إن قزام,In Guezzam,In Guezzam,إن قزام,In Guezzam,In Guezzam,إن قزام,In Guezzam,In Guezzam,54000,19.5683,5.7725
+55,توقرت,Touggourt,Touggourt,توقرت,Touggourt,Touggourt,توقرت,Touggourt,Touggourt,55000,33.0997,6.0628
+55,توقرت,Touggourt,Touggourt,توقرت,Touggourt,Touggourt,تماسين,Témacine,Temacine,55001,33.0583,6.0694
+56,جانت,Djanet,Djanet,جانت,Djanet,Djanet,جانت,Djanet,Djanet,56000,24.5553,9.4839
+57,المغير,El M'Ghair,El M'Ghair,المغير,El M'Ghair,El M'Ghair,المغير,El M'Ghair,El M'Ghair,57000,33.95,5.9333
+58,المنيعة,El Ménéa,El Menea,المنيعة,El Ménéa,El Menea,المنيعة,El Ménéa,El Menea,58000,30.5819,2.8864
