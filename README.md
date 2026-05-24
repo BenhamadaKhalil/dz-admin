@@ -1,17 +1,25 @@
 # dz-admin
 
-Modern Algeria administrative data platform.
+Modern Algeria administrative divisions dataset and API for 2026/2027.
 
 ## Features
 
-- Wilayas
-- Dairas
-- Communes
-- Multi-language support
-- GeoJSON support
+- 58 wilayas
+- Multilingual support
+- ISO codes
+- Coordinates
+- GeoJSON-ready
 - REST API
 - TypeScript SDK
 
-## Status
+## Example
 
-Work in progress.
+```json
+{
+  "code": "16",
+  "name": {
+    "ar": "الجزائر",
+    "fr": "Alger",
+    "en": "Algiers"
+  }
+}

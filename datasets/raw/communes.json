@@ -1,0 +1,8 @@
+{
+  "id": 1, "code": "010101", "daira_id": 1, "daira_code": "0101",
+  "wilaya_id": 1, "wilaya_code": "01",
+  "name": {"ar": "أدرار", "fr": "Adrar", "en": "Adrar"},
+  "slug": "adrar-adrar-adrar",
+  "postal_code": "01000",
+  "coordinates": {"lat": 27.8742, "lng": -0.2939}
+}
