@@ -19,7 +19,8 @@
     },
     "area_km2": 427368,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 2,
@@ -41,7 +42,8 @@
     },
     "area_km2": 4791,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 3,
@@ -63,7 +65,8 @@
     },
     "area_km2": 25857,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 4,
@@ -85,7 +88,8 @@
     },
     "area_km2": 6768,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 5,
@@ -107,7 +111,8 @@
     },
     "area_km2": 12038,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 6,
@@ -129,7 +134,8 @@
     },
     "area_km2": 3268,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 7,
@@ -151,7 +157,8 @@
     },
     "area_km2": 21671,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 8,
@@ -173,7 +180,8 @@
     },
     "area_km2": 161400,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 9,
@@ -195,7 +203,8 @@
     },
     "area_km2": 1696,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 10,
@@ -217,7 +226,8 @@
     },
     "area_km2": 4454,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 11,
@@ -239,7 +249,8 @@
     },
     "area_km2": 556000,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 12,
@@ -261,7 +272,8 @@
     },
     "area_km2": 13878,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 13,
@@ -283,7 +295,8 @@
     },
     "area_km2": 9017,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 14,
@@ -305,7 +318,8 @@
     },
     "area_km2": 20086,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 15,
@@ -327,7 +341,8 @@
     },
     "area_km2": 2957,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 16,
@@ -349,7 +364,8 @@
     },
     "area_km2": 273,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 17,
@@ -371,7 +387,8 @@
     },
     "area_km2": 32256,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 18,
@@ -393,7 +410,8 @@
     },
     "area_km2": 2577,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 19,
@@ -415,7 +433,8 @@
     },
     "area_km2": 6504,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 20,
@@ -437,7 +456,8 @@
     },
     "area_km2": 6764,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 21,
@@ -459,7 +479,8 @@
     },
     "area_km2": 4137,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 22,
@@ -481,7 +502,8 @@
     },
     "area_km2": 6783,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 23,
@@ -503,7 +525,8 @@
     },
     "area_km2": 1439,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 24,
@@ -525,7 +548,8 @@
     },
     "area_km2": 4101,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 25,
@@ -547,7 +571,8 @@
     },
     "area_km2": 2187,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 26,
@@ -569,7 +594,8 @@
     },
     "area_km2": 8866,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 27,
@@ -591,7 +617,8 @@
     },
     "area_km2": 2269,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 28,
@@ -613,7 +640,8 @@
     },
     "area_km2": 18718,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 29,
@@ -635,7 +663,8 @@
     },
     "area_km2": 5941,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 30,
@@ -657,7 +686,8 @@
     },
     "area_km2": 163233,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 31,
@@ -679,7 +709,8 @@
     },
     "area_km2": 2114,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 32,
@@ -701,7 +732,8 @@
     },
     "area_km2": 78870,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 33,
@@ -723,7 +755,8 @@
     },
     "area_km2": 284618,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 34,
@@ -745,7 +778,8 @@
     },
     "area_km2": 3927,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 35,
@@ -767,7 +801,8 @@
     },
     "area_km2": 1456,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 36,
@@ -789,7 +824,8 @@
     },
     "area_km2": 3339,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 37,
@@ -811,7 +847,8 @@
     },
     "area_km2": 158987,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 38,
@@ -833,7 +870,8 @@
     },
     "area_km2": 6166,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 39,
@@ -855,7 +893,8 @@
     },
     "area_km2": 54573,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 40,
@@ -877,7 +916,8 @@
     },
     "area_km2": 9811,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 41,
@@ -899,7 +939,8 @@
     },
     "area_km2": 4541,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 42,
@@ -921,7 +962,8 @@
     },
     "area_km2": 1707,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 43,
@@ -943,7 +985,8 @@
     },
     "area_km2": 3506,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 44,
@@ -965,7 +1008,8 @@
     },
     "area_km2": 4897,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 45,
@@ -987,7 +1031,8 @@
     },
     "area_km2": 29514,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 46,
@@ -1009,7 +1054,8 @@
     },
     "area_km2": 2379,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 47,
@@ -1031,7 +1077,8 @@
     },
     "area_km2": 86105,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 48,
@@ -1053,7 +1100,8 @@
     },
     "area_km2": 4870,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 49,
@@ -1075,7 +1123,8 @@
     },
     "area_km2": 91150,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 50,
@@ -1097,7 +1146,8 @@
     },
     "area_km2": 128000,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 51,
@@ -1119,7 +1169,8 @@
     },
     "area_km2": 9100,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 52,
@@ -1141,7 +1192,8 @@
     },
     "area_km2": 55000,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 53,
@@ -1163,7 +1215,8 @@
     },
     "area_km2": 102000,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 54,
@@ -1185,7 +1238,8 @@
     },
     "area_km2": 95000,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 55,
@@ -1207,7 +1261,8 @@
     },
     "area_km2": 20000,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 56,
@@ -1229,7 +1284,8 @@
     },
     "area_km2": 107000,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 57,
@@ -1251,7 +1307,8 @@
     },
     "area_km2": 17000,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 58,
@@ -1273,7 +1330,8 @@
     },
     "area_km2": 40000,
     "population": null,
-    "data_status": "complete"
+    "data_status": "complete",
+    "notes": null
   },
   {
     "id": 59,
