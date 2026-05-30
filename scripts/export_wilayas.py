@@ -39,13 +39,17 @@ def export_wilayas():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     # 1. JSON
-    json_path = OUT_DIR / "wilayas.json"
+    json_dir = OUT_DIR / "json"
+    json_dir.mkdir(exist_ok=True)
+    json_path = json_dir / "wilayas.json"
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump([w.model_dump() for w in valid_wilayas], f, ensure_ascii=False, indent=2)
     print(f"Generated {json_path}")
 
     # 2. CSV
-    csv_path = OUT_DIR / "wilayas.csv"
+    csv_dir = OUT_DIR / "csv"
+    csv_dir.mkdir(exist_ok=True)
+    csv_path = csv_dir / "wilayas.csv"
     with open(csv_path, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.writer(f)
         writer.writerow([
@@ -64,7 +68,9 @@ def export_wilayas():
     print(f"Generated {csv_path}")
 
     # 3. SQL
-    sql_path = OUT_DIR / "wilayas.sql"
+    sql_dir = OUT_DIR / "sql"
+    sql_dir.mkdir(exist_ok=True)
+    sql_path = sql_dir / "wilayas.sql"
     with open(sql_path, "w", encoding="utf-8") as f:
         f.write("DROP TABLE IF EXISTS wilayas;\n")
         f.write('''CREATE TABLE wilayas (
@@ -102,7 +108,9 @@ def export_wilayas():
     print(f"Generated {sql_path}")
 
     # 4. XML
-    xml_path = OUT_DIR / "wilayas.xml"
+    xml_dir = OUT_DIR / "xml"
+    xml_dir.mkdir(exist_ok=True)
+    xml_path = xml_dir / "wilayas.xml"
     root = ET.Element("wilayas")
     for w in valid_wilayas:
         wel = ET.SubElement(root, "wilaya")
@@ -137,7 +145,9 @@ def export_wilayas():
     print(f"Generated {xml_path}")
 
     # 5. YAML
-    yaml_path = OUT_DIR / "wilayas.yaml"
+    yaml_dir = OUT_DIR / "yaml"
+    yaml_dir.mkdir(exist_ok=True)
+    yaml_path = yaml_dir / "wilayas.yaml"
     with open(yaml_path, "w", encoding="utf-8") as f:
         yaml.dump([w.model_dump() for w in valid_wilayas], f, allow_unicode=True, sort_keys=False)
     print(f"Generated {yaml_path}")
