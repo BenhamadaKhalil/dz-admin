@@ -9,7 +9,7 @@ from pathlib import Path
 # Allow imports from repo root
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from schemas import Wilaya
+from schemas.wilaya_schema import Wilaya
 from pydantic import ValidationError
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -35,7 +35,7 @@ def export_wilayas():
             sys.exit(1)
 
     print(f"Successfully validated {len(valid_wilayas)} wilayas.")
-    
+
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     # 1. JSON
@@ -53,16 +53,16 @@ def export_wilayas():
     with open(csv_path, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.writer(f)
         writer.writerow([
-            "id", "code", "iso_code", "name_ar", "name_fr", "name_en", 
-            "slug", "region", "capital", "capital_city", "postal_code", 
+            "id", "code", "iso_code", "name_ar", "name_fr", "name_en",
+            "slug", "region", "capital", "capital_city", "postal_code",
             "lat", "lng", "area_km2", "population", "data_status"
         ])
         for w in valid_wilayas:
             writer.writerow([
-                w.id, w.code, w.iso_code, 
+                w.id, w.code, w.iso_code,
                 w.name.ar, w.name.fr, w.name.en,
                 w.slug, w.region.value, w.capital, w.capital_city, w.postal_code,
-                w.coordinates.lat, w.coordinates.lng, 
+                w.coordinates.lat, w.coordinates.lng,
                 w.area_km2, w.population, w.data_status.value
             ])
     print(f"Generated {csv_path}")
@@ -92,7 +92,7 @@ def export_wilayas():
     data_status VARCHAR(20) NOT NULL
 );\n\n''')
         f.write("INSERT INTO wilayas (id, code, iso_code, name_ar, name_fr, name_en, slug, region, capital, capital_city, postal_code, lat, lng, area_km2, population, data_status) VALUES\n")
-        
+
         values = []
         for w in valid_wilayas:
             name_ar = w.name.ar.replace("'", "''")
@@ -103,7 +103,7 @@ def export_wilayas():
             area = str(w.area_km2) if w.area_km2 is not None else "NULL"
             pop = str(w.population) if w.population is not None else "NULL"
             values.append(f"({w.id}, '{w.code}', '{w.iso_code}', '{name_ar}', '{name_fr}', '{name_en}', '{slug}', '{w.region.value}', {str(w.capital).upper()}, '{cap_city}', '{w.postal_code}', {w.coordinates.lat}, {w.coordinates.lng}, {area}, {pop}, '{w.data_status.value}')")
-        
+
         f.write(",\n".join(values) + ";\n")
     print(f"Generated {sql_path}")
 
@@ -117,22 +117,22 @@ def export_wilayas():
         ET.SubElement(wel, "id").text = str(w.id)
         ET.SubElement(wel, "code").text = w.code
         ET.SubElement(wel, "iso_code").text = w.iso_code
-        
+
         name_el = ET.SubElement(wel, "name")
         ET.SubElement(name_el, "ar").text = w.name.ar
         ET.SubElement(name_el, "fr").text = w.name.fr
         ET.SubElement(name_el, "en").text = w.name.en
-        
+
         ET.SubElement(wel, "slug").text = w.slug
         ET.SubElement(wel, "region").text = w.region.value
         ET.SubElement(wel, "capital").text = str(w.capital).lower()
         ET.SubElement(wel, "capital_city").text = w.capital_city
         ET.SubElement(wel, "postal_code").text = w.postal_code
-        
+
         coords_el = ET.SubElement(wel, "coordinates")
         ET.SubElement(coords_el, "lat").text = str(w.coordinates.lat)
         ET.SubElement(coords_el, "lng").text = str(w.coordinates.lng)
-        
+
         if w.area_km2 is not None:
             ET.SubElement(wel, "area_km2").text = str(w.area_km2)
         if w.population is not None:

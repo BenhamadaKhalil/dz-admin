@@ -9,7 +9,7 @@ import re
 from typing import Optional
 from pydantic import BaseModel, Field, field_validator
 
-from schemas.common import Coordinates, LocalizedName
+from common import Coordinates, LocalizedName
 
 
 class Commune(BaseModel):

@@ -1,7 +1,7 @@
 """
 scripts/generate_raw_data.py
 ─────────────────────────────────────────────────────────────────────────────
-ONE-TIME migration script: transforms the legacy data/algeria.json (58 wilayas,
+ONE-TIME migration script: transforms the legacy datasets/raw/wilayas.json (58 wilayas,
 flat name_ar/fr/en schema) into the canonical nested-name format and writes:
 
   datasets/raw/dairas.json
@@ -25,7 +25,7 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parent.parent
-SOURCE = ROOT / "data" / "algeria.json"
+SOURCE = ROOT / "datasets" / "raw" / "wilayas.json"
 OUT_DAIRAS = ROOT / "datasets" / "raw" / "dairas.json"
 OUT_COMMUNES = ROOT / "datasets" / "raw" / "communes.json"
 
@@ -48,180 +48,6 @@ def pad(n: int, width: int) -> str:
     return str(n).zfill(width)
 
 
-# ── New wilayas (59–69) stub data ─────────────────────────────────────────────
-# These were split from existing wilayas under Loi 26-06.
-# At minimum, each new wilaya has its capital city as the sole daïra/commune.
-
-NEW_WILAYAS: list[dict[str, Any]] = [
-    {
-        "code": "59", "id": 59,
-        "dairas": [
-            {"name": {"ar": "أفلو", "fr": "Aflou", "en": "Aflou"}, "communes": [
-                {"name": {"ar": "أفلو", "fr": "Aflou", "en": "Aflou"}, "postal_code": "59000",
-                 "lat": 34.1167, "lng": 2.1000},
-                {"name": {"ar": "سيدي بوزيد", "fr": "Sidi Bouzid", "en": "Sidi Bouzid"},
-                 "postal_code": "59001", "lat": 34.1967, "lng": 2.1514},
-            ]},
-            {"name": {"ar": "حاسي الرمل", "fr": "Hassi Rmel", "en": "Hassi Rmel"}, "communes": [
-                {"name": {"ar": "حاسي الرمل", "fr": "Hassi Rmel", "en": "Hassi Rmel"},
-                 "postal_code": "59010", "lat": 32.9333, "lng": 3.2667},
-            ]},
-        ]
-    },
-    {
-        "code": "60", "id": 60,
-        "dairas": [
-            {"name": {"ar": "الأبيض سيدي الشيخ", "fr": "El Abiodh Sidi Cheikh", "en": "El Abiodh Sidi Cheikh"},
-             "communes": [
-                {"name": {"ar": "الأبيض سيدي الشيخ", "fr": "El Abiodh Sidi Cheikh",
-                          "en": "El Abiodh Sidi Cheikh"}, "postal_code": "60000",
-                 "lat": 32.8931, "lng": 0.5481},
-                {"name": {"ar": "بوسمغون", "fr": "Bou Semghoun", "en": "Bou Semghoun"},
-                 "postal_code": "60001", "lat": 32.7500, "lng": 0.6667},
-            ]},
-            {"name": {"ar": "بريزينة", "fr": "Brezina", "en": "Brezina"}, "communes": [
-                {"name": {"ar": "بريزينة", "fr": "Brezina", "en": "Brezina"},
-                 "postal_code": "60010", "lat": 33.0944, "lng": 1.2681},
-            ]},
-        ]
-    },
-    {
-        "code": "61", "id": 61,
-        "dairas": [
-            {"name": {"ar": "العريشة", "fr": "El Aricha", "en": "El Aricha"}, "communes": [
-                {"name": {"ar": "العريشة", "fr": "El Aricha", "en": "El Aricha"},
-                 "postal_code": "61000", "lat": 34.2561, "lng": -1.3933},
-                {"name": {"ar": "بني بوعياش", "fr": "Beni Bouyaich", "en": "Beni Bouyaich"},
-                 "postal_code": "61001", "lat": 34.2833, "lng": -1.4167},
-            ]},
-            {"name": {"ar": "سبدو", "fr": "Sebdou", "en": "Sebdou"}, "communes": [
-                {"name": {"ar": "سبدو", "fr": "Sebdou", "en": "Sebdou"},
-                 "postal_code": "61010", "lat": 34.6347, "lng": -1.3211},
-            ]},
-        ]
-    },
-    {
-        "code": "62", "id": 62,
-        "dairas": [
-            {"name": {"ar": "القنطرة", "fr": "El Kantara", "en": "El Kantara"}, "communes": [
-                {"name": {"ar": "القنطرة", "fr": "El Kantara", "en": "El Kantara"},
-                 "postal_code": "62000", "lat": 35.2256, "lng": 5.7039},
-                {"name": {"ar": "بسكرة الجديدة", "fr": "Biskra El Jedida", "en": "Biskra El Jedida"},
-                 "postal_code": "62001", "lat": 35.2000, "lng": 5.7333},
-            ]},
-            {"name": {"ar": "عين الناقة", "fr": "Ain Naga", "en": "Ain Naga"}, "communes": [
-                {"name": {"ar": "عين الناقة", "fr": "Ain Naga", "en": "Ain Naga"},
-                 "postal_code": "62010", "lat": 34.9833, "lng": 5.9167},
-            ]},
-        ]
-    },
-    {
-        "code": "63", "id": 63,
-        "dairas": [
-            {"name": {"ar": "بريكة", "fr": "Barika", "en": "Barika"}, "communes": [
-                {"name": {"ar": "بريكة", "fr": "Barika", "en": "Barika"},
-                 "postal_code": "63000", "lat": 35.3889, "lng": 5.3658},
-                {"name": {"ar": "بئر العاتر", "fr": "Bir El Ater (Barika)", "en": "Bir El Ater (Barika)"},
-                 "postal_code": "63001", "lat": 35.3333, "lng": 5.2833},
-            ]},
-            {"name": {"ar": "سرج الغول", "fr": "Serj El Ghoul", "en": "Serj El Ghoul"}, "communes": [
-                {"name": {"ar": "سرج الغول", "fr": "Serj El Ghoul", "en": "Serj El Ghoul"},
-                 "postal_code": "63010", "lat": 35.1500, "lng": 5.5500},
-            ]},
-        ]
-    },
-    {
-        "code": "64", "id": 64,
-        "dairas": [
-            {"name": {"ar": "بوسعادة", "fr": "Bou Saâda", "en": "Bou Saada"}, "communes": [
-                {"name": {"ar": "بوسعادة", "fr": "Bou Saâda", "en": "Bou Saada"},
-                 "postal_code": "64000", "lat": 35.2091, "lng": 4.1744},
-                {"name": {"ar": "ولتام", "fr": "Ouled Mansour", "en": "Ouled Mansour"},
-                 "postal_code": "64001", "lat": 35.2833, "lng": 4.1500},
-            ]},
-            {"name": {"ar": "مجدل", "fr": "Maadid", "en": "Maadid"}, "communes": [
-                {"name": {"ar": "المعاضيد", "fr": "Maadid", "en": "Maadid"},
-                 "postal_code": "64010", "lat": 35.3333, "lng": 4.3667},
-            ]},
-        ]
-    },
-    {
-        "code": "65", "id": 65,
-        "dairas": [
-            {"name": {"ar": "بئر العاتر", "fr": "Bir El Ater", "en": "Bir El Ater"}, "communes": [
-                {"name": {"ar": "بئر العاتر", "fr": "Bir El Ater", "en": "Bir El Ater"},
-                 "postal_code": "65000", "lat": 34.7478, "lng": 8.0594},
-                {"name": {"ar": "فركان", "fr": "Ferkan", "en": "Ferkan"},
-                 "postal_code": "65001", "lat": 34.8000, "lng": 8.1167},
-            ]},
-            {"name": {"ar": "تبربرت", "fr": "Teberbest", "en": "Teberbest"}, "communes": [
-                {"name": {"ar": "تبربرت", "fr": "Teberbest", "en": "Teberbest"},
-                 "postal_code": "65010", "lat": 34.6500, "lng": 7.9333},
-            ]},
-        ]
-    },
-    {
-        "code": "66", "id": 66,
-        "dairas": [
-            {"name": {"ar": "قصر البخاري", "fr": "Ksar El Boukhari", "en": "Ksar El Boukhari"}, "communes": [
-                {"name": {"ar": "قصر البخاري", "fr": "Ksar El Boukhari", "en": "Ksar El Boukhari"},
-                 "postal_code": "66000", "lat": 35.8889, "lng": 2.7492},
-                {"name": {"ar": "الشهبونية", "fr": "Chehbounia", "en": "Chehbounia"},
-                 "postal_code": "66001", "lat": 35.9167, "lng": 2.7833},
-            ]},
-            {"name": {"ar": "سيدي دامد", "fr": "Sidi Damed", "en": "Sidi Damed"}, "communes": [
-                {"name": {"ar": "سيدي دامد", "fr": "Sidi Damed", "en": "Sidi Damed"},
-                 "postal_code": "66010", "lat": 35.7833, "lng": 2.8333},
-            ]},
-        ]
-    },
-    {
-        "code": "67", "id": 67,
-        "dairas": [
-            {"name": {"ar": "قصر الشلالة", "fr": "Ksar Chellala", "en": "Ksar Chellala"}, "communes": [
-                {"name": {"ar": "قصر الشلالة", "fr": "Ksar Chellala", "en": "Ksar Chellala"},
-                 "postal_code": "67000", "lat": 35.1611, "lng": 2.3189},
-                {"name": {"ar": "تاجموت", "fr": "Tagmout", "en": "Tagmout"},
-                 "postal_code": "67001", "lat": 35.1000, "lng": 2.2833},
-            ]},
-            {"name": {"ar": "عين الدهية", "fr": "Ain Dehia", "en": "Ain Dehia"}, "communes": [
-                {"name": {"ar": "عين الدهية", "fr": "Ain Dehia", "en": "Ain Dehia"},
-                 "postal_code": "67010", "lat": 35.2500, "lng": 2.4500},
-            ]},
-        ]
-    },
-    {
-        "code": "68", "id": 68,
-        "dairas": [
-            {"name": {"ar": "عين وسارة", "fr": "Aïn Oussara", "en": "Ain Oussara"}, "communes": [
-                {"name": {"ar": "عين وسارة", "fr": "Aïn Oussara", "en": "Ain Oussara"},
-                 "postal_code": "68000", "lat": 35.4514, "lng": 2.9056},
-                {"name": {"ar": "الشارف", "fr": "El Idrissia", "en": "El Idrissia"},
-                 "postal_code": "68001", "lat": 35.5000, "lng": 2.9833},
-            ]},
-            {"name": {"ar": "حد الصحاري", "fr": "Had Sahary", "en": "Had Sahary"}, "communes": [
-                {"name": {"ar": "حد الصحاري", "fr": "Had Sahary", "en": "Had Sahary"},
-                 "postal_code": "68010", "lat": 35.3500, "lng": 2.7833},
-            ]},
-        ]
-    },
-    {
-        "code": "69", "id": 69,
-        "dairas": [
-            {"name": {"ar": "مسعد", "fr": "Messaâd", "en": "Messaad"}, "communes": [
-                {"name": {"ar": "مسعد", "fr": "Messaâd", "en": "Messaad"},
-                 "postal_code": "69000", "lat": 34.1542, "lng": 3.5031},
-                {"name": {"ar": "أولاد عدي لقبالة", "fr": "Ouled Addi Guebala", "en": "Ouled Addi Guebala"},
-                 "postal_code": "69001", "lat": 34.1833, "lng": 3.4667},
-            ]},
-            {"name": {"ar": "حاسي فدول", "fr": "Hassi Fedoul", "en": "Hassi Fedoul"}, "communes": [
-                {"name": {"ar": "حاسي فدول", "fr": "Hassi Fedoul", "en": "Hassi Fedoul"},
-                 "postal_code": "69010", "lat": 34.0833, "lng": 3.6667},
-            ]},
-        ]
-    },
-]
-
 
 def generate_datasets() -> None:
     print("=" * 60)
@@ -243,8 +69,8 @@ def generate_datasets() -> None:
     daira_id = 1
     commune_id = 1
 
-    # ── Process 58 legacy wilayas ────────────────────────────────────────────
-    print(f"\nProcessing {len(legacy_wilayas)} legacy wilayas from data/algeria.json...")
+    # ── Process legacy wilayas ────────────────────────────────────────────
+    print(f"\nProcessing {len(legacy_wilayas)} legacy wilayas from datasets/raw/wilayas.json...")
 
     for wl in legacy_wilayas:
         wl_code = wl["code"]  # "01" … "58"

@@ -10,7 +10,7 @@ from enum import Enum
 from typing import Literal, Optional
 from pydantic import BaseModel, Field, field_validator
 
-from schemas.common import Coordinates, LocalizedName
+from common import Coordinates, LocalizedName
 
 
 class Region(str, Enum):
